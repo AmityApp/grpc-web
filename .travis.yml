@@ -16,8 +16,8 @@ env:
   matrix:
     # Browsers that do not support trusting self-signed certs for wss:// connections are disabled (see https://github.com/improbable-eng/grpc-web/issues/165)
     - BROWSER=nodejs
-    - BROWSER=edge14_win
-    - BROWSER=edge13_win
+    # - BROWSER=edge14_win
+    # - BROWSER=edge13_win
     - BROWSER=ie11_win DISABLE_WEBSOCKET_TESTS=true
     - BROWSER=firefox53_osx
     - BROWSER=firefox39_osx
